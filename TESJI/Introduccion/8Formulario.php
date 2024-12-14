@@ -4,7 +4,7 @@
     </head>
 
     <body>
-        <form method="post" action="ejercicio8_1.php">
+        <form method="post" action="81Formulario.php">
             Ingrese su nombre:
             <input type="text" name="nombre">
             <br>
