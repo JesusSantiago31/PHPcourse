@@ -2,6 +2,13 @@
     height: 100%;
     margin-top: 200px;
 }
+.content{
+    
+    padding-left: 20%;
+    padding-right: 60%;
+
+    
+}
 
 div{
     text-align: center;
@@ -23,5 +30,12 @@ a{
 p{
     text-align: center;
     margin: 50px;
-    background-color: aqua;
+    
+}
+
+form h3{
+    text-align: start;
+}
+form button{
+    margin: 15%;
 }
