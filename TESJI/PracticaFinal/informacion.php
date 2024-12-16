@@ -13,15 +13,18 @@ $conexion = mysqli_connect("localhost", "root", "", "proyecto")
 
 $nombre = $_POST["nombre"];
 $parentesco = $_POST["parentesco"];
-$imagen = $_FILES["imagen"]["tmp_name"];
-$destino = $imagen;
+$foto = $_FILES["imagen"]["name"];
+$ruta = $_FILES["imagen"]["tmp_name"];
+$destino = "uploads/". $foto;
 copy($ruta, $destino);
 
 $insertar = "INSERT INTO familia (nombre, parentesco, foto) 
             VALUES
-            ('$nombre'm '$parentesco', '$destino')";
+            ('$nombre', '$parentesco', '$destino')";
 $sql=mysqli_query($conexion, $insertar)
 or die ("Problemas en el select" .mysqli_error($conexion));
+
+mysqli_close($conexion); 
 
 echo "El Familiar fue dado de alta :)";
 
