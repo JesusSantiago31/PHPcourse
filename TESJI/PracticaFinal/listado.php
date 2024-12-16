@@ -14,14 +14,14 @@
 
     <div class="container px-4">
         <table class="table">
-            <tr>
+            <tr >
                 <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Parentesco</th>
-                <th scope="col">Imagen</th>
+                <th scope="col" >Imagen</th>
             </tr>
             <?php
-            include "mostrar.php";
+            include "mostrarP.php";
             ?>
         </table>
     </div>

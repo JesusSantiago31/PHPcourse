@@ -12,7 +12,7 @@
         <p class="fs-1 fw-bold"> REGISTRO FAMILIAR </p>
     </div>
     <div class="content">
-        <form method="post" action="informacion.php" enctype="multipart/form-data">
+        <form method="post" action="informacionP.php" enctype="multipart/form-data">
             <div class="container px-4">
           
                     <div class="mb-3">
@@ -33,8 +33,7 @@
                     <div >  
                     <button type="submit" class="btn btn-outline-primary btn-lg" name="registrar"> Registrar </button>
                     </div>
-                    
-               
+    
             </div>
             
             

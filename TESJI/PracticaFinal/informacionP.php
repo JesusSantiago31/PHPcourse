@@ -1,7 +1,7 @@
 <html> 
  
 <head> 
-  <title>Problema</title> 
+  <title>Informacion</title> 
 </head> 
  
 <body> 
