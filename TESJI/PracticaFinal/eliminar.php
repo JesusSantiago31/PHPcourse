@@ -24,6 +24,7 @@
 
         <div>
             <button type="submit" class="btn btn-outline-primary btn-lg" name="registrar"> Eliminar </button>
+            <a href= "index.html" type="button" class="btn btn-outline-info btn-lg"> Menú Principal </a>
         </div>
     </form>
     </div>
