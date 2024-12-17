@@ -25,5 +25,8 @@
             ?>
         </table>
     </div>
+    <div>
+    <a href= "index.html" type="button" class="btn btn-outline-info btn-lg"> Menú Principal </a>
+    </div>
 </body>
 </html>
